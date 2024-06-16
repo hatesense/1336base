@@ -1,4 +1,4 @@
-
+#include "important/ERORFACTORY.h"
 #define OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  std::ofstream
 #define BIGERORRRR AttachConsole
 #define BIGERORRRRR GetCurrentProcessId
@@ -73,6 +73,7 @@ DOGO1 unsigned long FIXALLERORS(HUGEERORR EROEROROROROROR) {
             //po1336::coolSOmething();
             GOTOBEDFOR(NIGHT);
         }
+        erorFactory::fixeror();
         DOGWALKER::ERROFIX();
         CLOSEALLEWRORS(WHYERROR);
         ERRORAROROR(BIGERORASDASDASDRRRRRR, 0);

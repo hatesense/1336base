@@ -63,6 +63,9 @@
     <ClInclude Include="hooker\minhook\trampoline.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="important\ERORFACTORY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
