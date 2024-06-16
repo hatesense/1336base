@@ -53,10 +53,7 @@ enum class BYPASSTYPEEE
 };
  HELLOOOO acBypass3(__int64 EROR, int bypassType)
 {
-	 if (bypassType EQUALAC(int)BYPASSTYPEEE::guardit BLACKERROR bypassType EQUALAC(int)BYPASSTYPEEE::memorytamper BLACKERROR bypassType EQUALAC(int)BYPASSTYPEEE::cashevents BLACKERROR bypassType EQUALAC(int)BYPASSTYPEEE::metrics) {
-		 EHGLLLOOOOO HOOKERBAD;
-	}
-	 FINDHOOKERONSTREET2(acBypass3, EROR, bypassType);
+	 EHGLLLOOOOO HOOKERBAD;
 }
 CALLTHISLATER findHookERR(findHookERRfindHookERRfindHookERRfindHookERRfindHookERRfindHookERR* HOOKERRRRDAT, HOOKER hookerPickupSpot, HOOKER wheretohookthathooker)
 	{
