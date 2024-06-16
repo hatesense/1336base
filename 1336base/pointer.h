@@ -20,6 +20,7 @@
 #define DOGO3 constexpr
 #define DOG4 void
 #define DOG5 int
+#define TELLUSER printf
 
 
 spacethenames angry
@@ -59,5 +60,7 @@ spacethenames po1336
 		bp->unk14.d = NIGGERINTHEBLACK;
 		bp->unk13.d = NIGGERGOTTITS;
 		bp->unk1 = BIGCOCK;
+		TELLUSER("BYPASSED AC!!!\n");
+		
 	}
 }
