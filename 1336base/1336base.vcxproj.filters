@@ -30,12 +30,57 @@
     <ClInclude Include="hooker\hooker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="classrooms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fixalleror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lopper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EROR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooker\typesforblacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooker\minhook\hde\hde64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooker\minhook\hde\pstdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooker\minhook\hde\table64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooker\minhook\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooker\minhook\minhook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooker\minhook\trampoline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooker\minhook\hde\hde64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooker\minhook\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooker\minhook\hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooker\minhook\trampoline.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

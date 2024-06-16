@@ -1,4 +1,4 @@
-#include <Windows.h>
+
 #include <fstream>
 #include <thread>
 #include <chrono>

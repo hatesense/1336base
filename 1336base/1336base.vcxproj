@@ -147,6 +147,13 @@
     <ClInclude Include="fixalleror.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="hooker\hooker.h" />
+    <ClInclude Include="hooker\minhook\buffer.h" />
+    <ClInclude Include="hooker\minhook\hde\hde64.h" />
+    <ClInclude Include="hooker\minhook\hde\pstdint.h" />
+    <ClInclude Include="hooker\minhook\hde\table64.h" />
+    <ClInclude Include="hooker\minhook\minhook.h" />
+    <ClInclude Include="hooker\minhook\trampoline.h" />
+    <ClInclude Include="hooker\typesforblacks.h" />
     <ClInclude Include="lopper.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="pointer.h" />
@@ -155,6 +162,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="hooker\minhook\buffer.cpp" />
+    <ClCompile Include="hooker\minhook\hde\hde64.cpp" />
+    <ClCompile Include="hooker\minhook\hook.cpp" />
+    <ClCompile Include="hooker\minhook\trampoline.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

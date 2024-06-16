@@ -1,2 +1,6 @@
 C:\Users\teddy\Documents\GitHub\1336base\1336base\dllmain.cpp;C:\Users\teddy\Documents\GitHub\1336base\1336base\x64\Release\dllmain.obj
+C:\Users\teddy\Documents\GitHub\1336base\1336base\hooker\minhook\buffer.cpp;C:\Users\teddy\Documents\GitHub\1336base\1336base\x64\Release\buffer.obj
+C:\Users\teddy\Documents\GitHub\1336base\1336base\hooker\minhook\hde\hde64.cpp;C:\Users\teddy\Documents\GitHub\1336base\1336base\x64\Release\hde64.obj
+C:\Users\teddy\Documents\GitHub\1336base\1336base\hooker\minhook\hook.cpp;C:\Users\teddy\Documents\GitHub\1336base\1336base\x64\Release\hook.obj
+C:\Users\teddy\Documents\GitHub\1336base\1336base\hooker\minhook\trampoline.cpp;C:\Users\teddy\Documents\GitHub\1336base\1336base\x64\Release\trampoline.obj
 C:\Users\teddy\Documents\GitHub\1336base\1336base\pch.cpp;C:\Users\teddy\Documents\GitHub\1336base\1336base\x64\Release\pch.obj

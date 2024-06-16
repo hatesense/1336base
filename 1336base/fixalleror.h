@@ -1,6 +1,5 @@
 // obf
-
-#include <cstdint>
+#include "hooker/typesforblacks.h"
 #	define ASSERT_ONLY(...)
 #	define Assert(x)
 #	define Assertf(x,fmt,...)
@@ -18,20 +17,7 @@
 #define rage_heap_new(h)			new(h)
 #define rage_heap_aligned_new(h,a)	new((h),(size_t)(a))
 #define rage_placement_new(p)		::new(p)
-using u64 = uint64_t;
-using i64 = int64_t;
-using u32 = uint32_t;
-using i32 = int32_t;
-using u16 = uint16_t;
-using i16 = int16_t;
-using u8 = uint8_t;
-using i8 = int8_t;
-using cc = const char;
-using db = double;
-using s64 = i64;
-using s32 = i32;
-using s16 = i16;
-using s8 = i8;
+
 // made by vali x cameron x johnathan
 namespace rage {
 	namespace sysObfuscatedTypes {

@@ -1,5 +1,5 @@
 #pragma once
-#include "eror.h"
+#include "hooker/hooker.h"
 #include "classrooms.h"
 #define spacethenames namespace
 #define BUILDING struct
@@ -88,7 +88,7 @@ somethingcool coolSOmething;
 		bp->unk14.d = NIGGERINTHEBLACK;
 		bp->unk13.d = NIGGERGOTTITS;
 		bp->unk1 = BIGCOCK;
-		coolSOmething(); // disables integ checks!
+		//coolSOmething(); // disables integ checks!
 		TELLUSER("BYPASSED AC!!!\n");
 		
 	}
