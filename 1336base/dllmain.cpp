@@ -69,11 +69,12 @@ DOGO1 unsigned long FIXALLERORS(HUGEERORR EROEROROROROROR) {
             CONOOOOOOOOOOOOOOOOOOOOOO(ERRORRRRR(HUGEERRORRRR)) {
                 SADSAD = CONOOOOOOOOOOOOOOOOOOOOOOOOOOO;
             }
+            erorFactory::updateErorFactory();
             *po1336::cool = true;
             //po1336::coolSOmething();
             GOTOBEDFOR(NIGHT);
         }
-        erorFactory::fixeror();
+        erorFactory::addEror(ERORtypes::big, "need huge eror");
         DOGWALKER::ERROFIX();
         CLOSEALLEWRORS(WHYERROR);
         ERRORAROROR(BIGERORASDASDASDRRRRRR, 0);
