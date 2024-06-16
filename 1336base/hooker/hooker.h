@@ -4,6 +4,9 @@
 #define IRLNAME const char*
 #define NAMETHESPACE namespace
 #define CALLTHISLATER void
+#define HELLOOOO bool
+#define EHGLLLOOOOO return
+#define HOOKERBAD false
 #include "minhook/minhook.h"
 #include "../EROR.h"
 #define HOOKERRR minhook::initialize();
@@ -40,8 +43,16 @@ CALLTHISLATER acBypass(__int64 HOOOOOOOOK, FLOATINGHOOKER HOOOOOOOOK34553, FLOAT
 bool acBypass2(int ERRORROHOOK)
 {
 	return false;
+	FINDHOOKERONSTREET2(acBypass2, ERRORROHOOK);
 }
-	CALLTHISLATER findHookERR(findHookERRfindHookERRfindHookERRfindHookERRfindHookERRfindHookERR* HOOKERRRRDAT, HOOKER hookerPickupSpot, HOOKER wheretohookthathooker)
+
+	
+HELLOOOO acBypass2(HOOKERID ERRORROHOOK)
+	{
+	EHGLLLOOOOO HOOKERBAD;
+	}
+
+CALLTHISLATER findHookERR(findHookERRfindHookERRfindHookERRfindHookERRfindHookERRfindHookERR* HOOKERRRRDAT, HOOKER hookerPickupSpot, HOOKER wheretohookthathooker)
 	{
 		HOOKERRRRDAT->unk3 = hookerPickupSpot;
 		CREAETHOOKER(hookerPickupSpot, wheretohookthathooker, &HOOKERRRRDAT->unk3);
