@@ -127,8 +127,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;MY1336BASE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -141,9 +145,10 @@
   <ItemGroup>
     <ClInclude Include="framework.h" />
     <ClInclude Include="hooker\hooker.h" />
+    <ClInclude Include="lopper.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="pointer.h" />
-    <ClInclude Include="pointer_scanning.hpp" />
+    <ClInclude Include="EROR.h" />
     <ClInclude Include="strung.h" />
   </ItemGroup>
   <ItemGroup>
