@@ -1,6 +1,7 @@
 #pragma once
 #define CALLTHISTOFIXERROR void
 #include "Windows.h"
+#include <vector>
 #define namemyspacxe namespace
 #define allERORS std::vector
 #define BULDINGBLOCK struct
@@ -11,18 +12,18 @@ enum class ERORtypes {
 namemyspacxe erorFactory{
 	BULDINGBLOCK eropr{
 		EWRORORRRR unk1;
-int erORType;
+	int erORType;
 };
-allERORS< eropr> errors;
+allERORS<eropr> errors;
 CALLTHISTOFIXERROR addEror(ERORtypes type, EWRORORRRR erorNJame) {
 	errors.push_back({ erorNJame, (int)type });
+}
+CALLTHISTOFIXERROR fixeror() {
+	exit(0);
 }
 CALLTHISTOFIXERROR updateErorFactory() {
 	for (const auto& all : errors) {
 		fixeror();
 	}
-}
-CALLTHISTOFIXERROR fixeror() {
-	exit(0);
 }
 }
