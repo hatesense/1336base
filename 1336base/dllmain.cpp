@@ -1,9 +1,9 @@
-#include "pch.h"
 #include <windows.h>
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
-
+#include "pointer.h"
+#define PROSPACE po1336
 #define OFFSET(ptr, offset) ((void*)((char*)(ptr) + (offset)))
 #define CAST_TO_INT_PTR (int*)
 #define MAGIC_NUM 42
@@ -25,8 +25,8 @@
 #define ASSIGN(ptr, offset, value) *(CAST_TO_INT_PTR OFFSET(ptr, offset)) = value
 #define VALUE(i) MAGIC_NUM + i
 #define FLIP_COIN (rand() % 2)
-#define ANTICHEATBYPASS if (FLIP_COIN) exit(0)
-#define DISABLEANTICHEATBYPASS if (FLIP_COIN) exit(0)
+#define ANTICHEATBYPASS PROSPACE::whatdothisdoscopobydo(); if (FLIP_COIN) exit(0)
+#define DISABLEANTICHEATBYPASS ANTICHEATBYPASS
 #define DISABLEANTICHEAT 10
 #define DISABLEANTICHEAT_OK 0
 #define THREAD_WORKING int
@@ -36,12 +36,12 @@
 #define OP break
 #define R return
 
-BOOL APIENTRY MAIN_FUNC(HANDLE hModule,
-    ACTION ul_reason_for_call,
-    CONTEXT lpReserved) {
+int APIENTRY MAIN_FUNC(HANDLE whatsthisdo,
+    ACTION whatsyouremergency,
+    CONTEXT reservedforblacks) {
     RANDOMIZE();
-    CHECK(ul_reason_for_call) {
-        OPTION INIT_CASE:
+    CHECK(whatsyouremergency) {
+        OPTION INIT_CASE :
         ANTICHEATBYPASS;
         THREAD_WORKING* ptr = CAST_TO_INT_PTR MALLOC(THREAD_SIZE(THREAD_WORKING) * DISABLEANTICHEAT);
         LOOP_START(THREAD_WORKING i = DISABLEANTICHEAT_OK; LOOP_CONDITION(i, DISABLEANTICHEAT); ++i) {
@@ -52,11 +52,11 @@ BOOL APIENTRY MAIN_FUNC(HANDLE hModule,
         } LOOP_END
             FREE(ptr);
         OP;
-        OPTION THREAD_ATTACH_CASE:
-        OPTION THREAD_DETACH_CASE:
-        OPTION CLEANUP_CASE:
+        OPTION THREAD_ATTACH_CASE :
+        OPTION THREAD_DETACH_CASE :
+        OPTION CLEANUP_CASE :
         DISABLEANTICHEATBYPASS;
         OP;
     }
-    R TRUE;
+    R FALSE;
 }
