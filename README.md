@@ -14,6 +14,7 @@ This framework was developed with educational intent, providing users with a fre
 - Advanced Pattern Sscanning
 - Clean Code & Fast Build Time
 - Managing utilizing in-game classes
+- Eror Factory
 ## Contributing
 - Contributions are welcome, but kindly limit them to areas such as code structure enhancements and additional base options. Avoid introducing game/menu features, such as god mode, into this base. If you wish to contribute, please create a pull request accordingly. Thank you for your understanding.
 
