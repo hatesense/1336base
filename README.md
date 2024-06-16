@@ -21,3 +21,46 @@ This framework was developed with educational intent, providing users with a fre
 * **Hatesense**
 * **Patek**
 * **NavModder**
+* **Scarface**
+
+## Main Authers
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+* **Vali**
+  
