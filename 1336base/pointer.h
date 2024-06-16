@@ -48,17 +48,12 @@ spacethenames po1336
 	DOGO
 	DOGO1
 	DOGO2
-	DOGO3
 	DOG4
 	whatdothisdoscopobydo
 	() 
 {
 
-		bypassp bp{nonono_sun::CONOOOOOOOOOOOOOOsdcDXCSvOOOOOnoOOOOO("48 8B 1D ? ? ? ? E8 ? ? ? ? 8B D0 48 8B CB E8 ? ? ? ? 48 8B CB").color<bypassp>()};
-		bp->unk12.d = COW;
-		bp->unk11.d = ROCKET;
-		bp->unk14.d = NIGGERINTHEBLACK;
-		bp->unk13.d = NIGGERGOTTITS;
-		bp->unk1 = BIGCOCK;
+		bypassp bp{nonono_sun::CONOOOOOOOOOOOOOOsdcDXCSvOOOOOnoOOOOO("48 8B 1D ? ? ? ? E8 ? ? ? ? 8B D0 48 8B CB E8 ? ? ? ? 48 8B CB").color<bypassp>() };
+		
 	}
 }
