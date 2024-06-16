@@ -32,6 +32,7 @@ using s64 = i64;
 using s32 = i32;
 using s16 = i16;
 using s8 = i8;
+// made by vali x cameron x johnathan
 namespace rage {
 	namespace sysObfuscatedTypes {
 		// Obfuscated rand() function. Essentially the same as rand(), but inline, and generates

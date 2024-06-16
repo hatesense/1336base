@@ -10,8 +10,8 @@ C:\Users\teddy\Documents\GitHub\1336base\1336base\pointer.h(79,17): warning C430
   (compiling source file 'dllmain.cpp')
   
   Generating code
-  20 of 355 functions ( 5.6%) were compiled, the rest were copied from previous compilation.
-    15 functions were new in current compilation
-    10 functions had inline decision re-evaluated but remain unchanged
+  0 of 355 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   1336base.vcxproj -> C:\Users\teddy\Documents\GitHub\1336base\x64\Release\1336base.dll
