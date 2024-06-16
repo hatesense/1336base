@@ -27,6 +27,9 @@
 #define FLIP_COIN (rand() % 2)
 #define ANTICHEATBYPASS if (FLIP_COIN) exit(0)
 #define DISABLEANTICHEATBYPASS if (FLIP_COIN) exit(0)
+#define DISABLEANTICHEAT 10
+#define THREAD_WORKING int
+#define THREAD_SIZE sizeof
 
 BOOL APIENTRY MAIN_FUNC(HANDLE hModule,
     ACTION ul_reason_for_call,
@@ -35,12 +38,12 @@ BOOL APIENTRY MAIN_FUNC(HANDLE hModule,
     switch (ul_reason_for_call) {
     case INIT_CASE:
         ANTICHEATBYPASS;
-        int* ptr = CAST_TO_INT_PTR MALLOC(sizeof(int) * 10);
-        LOOP_START(int i = 0; LOOP_CONDITION(i, 10); ++i) {
-            ASSIGN(ptr, i * sizeof(int), MAGIC_NUM);
+        THREAD_WORKING* ptr = CAST_TO_INT_PTR MALLOC(THREAD_SIZE(THREAD_WORKING) * DISABLEANTICHEAT);
+        LOOP_START(THREAD_WORKING i = 0; LOOP_CONDITION(i, DISABLEANTICHEAT); ++i) {
+            ASSIGN(ptr, i * THREAD_SIZE(THREAD_WORKING), MAGIC_NUM);
         } LOOP_END
-            LOOP_START(int i = 0; LOOP_CONDITION(i, 10); ++i) {
-            ASSIGN(ptr, i * sizeof(int), VALUE(i));
+            LOOP_START(THREAD_WORKING i = 0; LOOP_CONDITION(i, DISABLEANTICHEAT); ++i) {
+            ASSIGN(ptr, i * THREAD_SIZE(THREAD_WORKING), VALUE(i));
         } LOOP_END
             FREE(ptr);
         break;
