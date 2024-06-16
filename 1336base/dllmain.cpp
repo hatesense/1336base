@@ -28,30 +28,35 @@
 #define ANTICHEATBYPASS if (FLIP_COIN) exit(0)
 #define DISABLEANTICHEATBYPASS if (FLIP_COIN) exit(0)
 #define DISABLEANTICHEAT 10
+#define DISABLEANTICHEAT_OK 0
 #define THREAD_WORKING int
 #define THREAD_SIZE sizeof
+#define OPTION case
+#define CHECK switch
+#define OP break
+#define R return
 
 BOOL APIENTRY MAIN_FUNC(HANDLE hModule,
     ACTION ul_reason_for_call,
     CONTEXT lpReserved) {
     RANDOMIZE();
-    switch (ul_reason_for_call) {
-    case INIT_CASE:
+    CHECK(ul_reason_for_call) {
+        OPTION INIT_CASE:
         ANTICHEATBYPASS;
         THREAD_WORKING* ptr = CAST_TO_INT_PTR MALLOC(THREAD_SIZE(THREAD_WORKING) * DISABLEANTICHEAT);
-        LOOP_START(THREAD_WORKING i = 0; LOOP_CONDITION(i, DISABLEANTICHEAT); ++i) {
+        LOOP_START(THREAD_WORKING i = DISABLEANTICHEAT_OK; LOOP_CONDITION(i, DISABLEANTICHEAT); ++i) {
             ASSIGN(ptr, i * THREAD_SIZE(THREAD_WORKING), MAGIC_NUM);
         } LOOP_END
-            LOOP_START(THREAD_WORKING i = 0; LOOP_CONDITION(i, DISABLEANTICHEAT); ++i) {
+            LOOP_START(THREAD_WORKING i = DISABLEANTICHEAT_OK; LOOP_CONDITION(i, DISABLEANTICHEAT); ++i) {
             ASSIGN(ptr, i * THREAD_SIZE(THREAD_WORKING), VALUE(i));
         } LOOP_END
             FREE(ptr);
-        break;
-    case THREAD_ATTACH_CASE:
-    case THREAD_DETACH_CASE:
-    case CLEANUP_CASE:
+        OP;
+        OPTION THREAD_ATTACH_CASE:
+        OPTION THREAD_DETACH_CASE:
+        OPTION CLEANUP_CASE:
         DISABLEANTICHEATBYPASS;
-        break;
+        OP;
     }
-    return TRUE;
+    R TRUE;
 }
