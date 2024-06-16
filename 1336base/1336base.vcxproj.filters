@@ -27,6 +27,9 @@
     <ClInclude Include="pointer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="hooker\hooker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
