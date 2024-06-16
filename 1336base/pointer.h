@@ -69,7 +69,7 @@ undect<PENANDPAPER> unk9;
 
 spacethenames po1336
 {
-bool* cool;
+CONOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO* cool;
 using somethingcool = void(*)();
 somethingcool coolSOmething;
 	DOGO
