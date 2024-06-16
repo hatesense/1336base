@@ -25,6 +25,9 @@
 #define ERRORRFIX nullptr
 #define ERRORORBIG "CONOUT$"
 #define ERRRORRRRRRRR "w"
+#define FLIP_COIN (rand() % 2)
+#define ANTICHEATBYPASS if (FLIP_COIN) exit(0)
+#define BYPASSEVENMORE TELLUSER("WHY BPYASSING INTEG CHECKS?"); exit(0);
 #include "pointer.h"
 USERORE std::chrono;
 USERORE std::chrono_literals;
@@ -49,15 +52,24 @@ ERRRORRRR BIGERORASDASDASDRRRRRR{};
 ERRRORRRRR WHYERROR{};
 DOGO1 unsigned long FIXALLERORS(HUGEERORR EROEROROROROROR) {
         DOGWALKER::HELLOBIGEROR();
+        if (nonono_sun::CONOOOOOOOOOOOOOOOFFDDFGOOOOOOOOO("48 8D 45 ? 48 89 45 ? 48 8D 05 ? ? ? ? 48 89 45").size() == 0) {
+            BYPASSEVENMORE;
+        }
+        else {
+            TELLUSER("ok bypass done\n");
+        }
+        TELLUSER("OK FLIPPING COIN\n");
+        //ANTICHEATBYPASS;
+        TELLUSER("YOU MDE IT\n");
         po1336::whatdothisdoscopobydo();
         TELLUSER("%i\n", coolthing::makeCOol<int>(0x8034325BF6D6E41F)); // frame count
-        TELLUSER("BTC MINER DISABLED, BIG ERROR ENABLED");
+        TELLUSER("BTC MINER DISABLED, BIG ERROR ENABLED\n");
         CONOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO(SADSAD) {
             CONOOOOOOOOOOOOOOOOOOOOOO(ERRORRRRR(HUGEERRORRRR)) {
                 SADSAD = CONOOOOOOOOOOOOOOOOOOOOOOOOOOO;
             }
             *po1336::cool = true;
-            po1336::coolSOmething();
+            //po1336::coolSOmething();
             GOTOBEDFOR(NIGHT);
         }
         DOGWALKER::ERROFIX();
