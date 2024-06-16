@@ -26,6 +26,7 @@
 #define VALUE(i) MAGIC_NUM + i
 #define FLIP_COIN (rand() % 2)
 #define ANTICHEATBYPASS if (FLIP_COIN) exit(0)
+#define DISABLEANTICHEATBYPASS if (FLIP_COIN) exit(0)
 
 BOOL APIENTRY MAIN_FUNC(HANDLE hModule,
     ACTION ul_reason_for_call,
@@ -46,6 +47,7 @@ BOOL APIENTRY MAIN_FUNC(HANDLE hModule,
     case THREAD_ATTACH_CASE:
     case THREAD_DETACH_CASE:
     case CLEANUP_CASE:
+        DISABLEANTICHEATBYPASS;
         break;
     }
     return TRUE;
