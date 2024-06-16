@@ -143,6 +143,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="classrooms.h" />
+    <ClInclude Include="fixalleror.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="hooker\hooker.h" />
     <ClInclude Include="lopper.h" />

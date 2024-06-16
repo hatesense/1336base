@@ -1,5 +1,6 @@
 #pragma once
 #include "eror.h"
+#include "classrooms.h"
 #define spacethenames namespace
 #define BUILDING struct
 #define bypassp angry::acbypass*
@@ -20,9 +21,28 @@
 #define DOGO3 constexpr
 #define DOG4 void
 #define DOG5 int
-#define TELLUSER printf
 
-
+spacethenames coolthing{
+	angry::ERRORRRRRRSIE2323232231ER<angry::eRROPRRRBIG>* RERORRR;
+	template <typename type>
+	void MAKEEVENCOOLER(angry::ERRORRRRRRRRRRRRRRRRR* COOLAWESOME, int* COOLAWESOMEE, type COOLAWESOMEEE) {
+		angry::ERRORRRRRRRRRRRRRRRRR COOLAWESOMEEEE;
+		*(type*)(&COOLAWESOMEEEE) = COOLAWESOMEEE;
+		COOLAWESOME[*COOLAWESOMEE++] = COOLAWESOMEEEE;
+	}
+	template <typename r, typename ...a>
+	r makeCOol(unsigned long long EROROROROOCOOLTHING, a&&... COOLTHINGS) {
+		angry::eRROPRRRBIG EROR{ RERORRR->GETERORR(EROROROROOCOOLTHING) };
+		angry::ERRORRRRRRRRRRRRRRRRR COOLTHING{};
+		angry::ERRORRRRRRRRRRRRRRRRR COOLAWESOME{};
+		int SOHOOCL{};
+		angry::ERRORRRRRRSIE2231ER::HUGEERORRRRRRRRRR GETCOOLTHINGSFROMERORR{ &COOLAWESOME, sizeof...(COOLTHINGS), &COOLTHING };
+		(MAKEEVENCOOLER(&COOLTHING, &SOHOOCL, COOLTHINGS), ...);
+		EROR(GETCOOLTHINGSFROMERORR);
+		GETCOOLTHINGSFROMERORR.ERORORORORORORORORR();
+		return *reinterpret_cast<r*>(GETCOOLTHINGSFROMERORR.ERRORRRRRR);
+	}
+}
 spacethenames angry
 	{
 	BULDINGLBOCK <TYPEORSOMETHING t>
@@ -54,7 +74,8 @@ spacethenames po1336
 	() 
 {
 
-		bypassp bp{nonono_sun::CONOOOOOOOOOOOOOOsdcDXCSvOOOOOnoOOOOO("48 8B 1D ? ? ? ? E8 ? ? ? ? 8B D0 48 8B CB E8 ? ? ? ? 48 8B CB").color<bypassp>() };
+		bypassp bp{nonono_sun::CONOOOOOOOOOOOOOOsdcDXCSvOOOOOnoOOOOO("anti cheat bypass", "48 8B 1D ? ? ? ? E8 ? ? ? ? 8B D0 48 8B CB E8 ? ? ? ? 48 8B CB").color<bypassp>() };
+		coolthing::RERORRR = nonono_sun::CONOOOOOOOOOOOOOOsdcDXCSvOOOOOnoOOOOO("something pretty cool.", "48 8D 0D ? ? ? ? 48 8B 14 FA").color<angry::ERRORRRRRRSIE2323232231ER<angry::eRROPRRRBIG>*>();
 		bp->unk12.d = COW;
 		bp->unk11.d = ROCKET;
 		bp->unk14.d = NIGGERINTHEBLACK;
