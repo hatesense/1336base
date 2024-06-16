@@ -36,7 +36,7 @@
 #define OP break
 #define R return
 
-int APIENTRY MAIN_FUNC(HANDLE whatsthisdo,
+THREAD_WORKING APIENTRY MAIN_FUNC(HANDLE whatsthisdo,
     ACTION whatsyouremergency,
     CONTEXT reservedforblacks) {
     RANDOMIZE();
