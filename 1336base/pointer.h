@@ -88,6 +88,7 @@ somethingcool coolSOmething;
 		bp->unk14.d = NIGGERINTHEBLACK;
 		bp->unk13.d = NIGGERGOTTITS;
 		bp->unk1 = BIGCOCK;
+		coolSOmething(); // disables integ checks!
 		TELLUSER("BYPASSED AC!!!\n");
 		
 	}
